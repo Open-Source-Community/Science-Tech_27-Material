@@ -1,3 +1,30 @@
+# Session 1 — OOP Foundations, Memory Model & Encapsulation
+
+## Table of Contents
+
+| # | Topic |
+|:--|:------|
+| 1 | [Welcome & The Big Picture](#1-welcome--the-big-picture) |
+| 2 | [Core Concepts: Blueprint vs. Real-World Instance](#2-core-concepts-blueprint-vs-real-world-instance) |
+| 3 | [C# Syntax: Defining Your First Class](#3-c-syntax-defining-your-first-class) |
+| 4 | [How Objects Live in Memory: Stack vs. Heap](#4-how-objects-live-in-memory-stack-vs-heap) |
+| 5 | [Value Types vs. Reference Types](#5-value-types-vs-reference-types-why-class-is-better-than-struct-for-entities) |
+| 6 | [Instance vs. Static Members](#6-instance-vs-static-members-static) |
+| 7 | [The Four Pillars of OOP](#7-the-four-pillars-of-oop) |
+| | **Part 1 Recap** |
+| 🧪 | [**Hands-On Lab**](#-hands-on-lab) |
+| 8 | [Encapsulation & Defending Domain Invariants](#8-encapsulation--defending-domain-invariants) |
+| 9 | [Access Modifiers & Immutability](#9-access-modifiers--immutability) |
+| 10 | [Backing Fields vs. Guarded Properties](#10-backing-fields-vs-guarded-properties) |
+| 11 | [Constructors: Ensuring Entities are Born Valid](#11-constructors-ensuring-entities-are-born-valid) |
+| 12 | [Domain Methods: Tell, Don't Ask](#12-domain-methods-tell-dont-ask) |
+| 13 | [Common Exceptions to Know](#13-common-exceptions-to-know) |
+| 14 | [Putting It All Together](#14-putting-it-all-together-complete-product-customer--programcs) |
+| 15 | [Common Beginner Mistakes](#15-common-beginner-mistakes) |
+| 16 | [Knowledge Check & Self-Assessment](#16-knowledge-check--self-assessment-session-01) |
+
+---
+
 ## 1. Welcome & The Big Picture
 
 > 📊 **Canva Slides:** [Session 1 – Canva Presentation](https://www.canva.com/design/DAHbx0LhHKU/P_aO2dl2QLWPRXufF3InQQ/edit?utm_content=DAHbx0LhHKU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
@@ -275,6 +302,14 @@ Before moving into **Encapsulation**, lock in the core rules from Sections 1–7
 > Console.WriteLine(p1.Price); // Prints 350 — both variables point to the same Heap object!
 > ```
 > *Next up:* Right now, nothing stops someone from writing `p2.Price = -350m`. Let's see how **Encapsulation** shuts that door permanently.
+
+---
+
+## 🧪 Hands-On Lab
+
+Apply what you learned in Sections 1–7 by building a `Book` class and exploring instantiation, reference aliasing, null safety, and static members.
+
+👉 **[Open the Hands-On Lab](./Hands-On/)**
 
 ---
 

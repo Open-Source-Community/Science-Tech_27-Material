@@ -1,6 +1,6 @@
-using Session2HandsOn.Models;
+using Session1.Models;
 
-namespace Session2HandsOn
+namespace Session1
 {
     public class Program
     {
